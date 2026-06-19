@@ -34,4 +34,4 @@ A natureza dos dados tratados exige conformidade absoluta e atenção máxima à
 1.  **Isolamento de Dados Sensíveis:** Nenhuma informação real de processo, dados confidenciais ou credenciais (*tokens/senhas*) devem ser expostos em *commits*. Utilize exclusivamente arquivos `.env` locais para variáveis de ambiente.
 2.  **Fluxo de Versionamento:** Bloqueio de *commits* diretos na branch `main`. Todo novo desenvolvimento deve ser feito em *branches* isoladas (ex: `feature/novo-parser-crivo`) e integrado via *Pull Request*.
 3.  **Ambiente Local:** Antes de iniciar os trabalhos do dia, certifique-se de realizar o *pull* das imagens Docker mais recentes para garantir a compatibilidade do sistema.
-4.  **Suporte Técnico:** Em caso de bloqueios de ambiente, falhas de sincronização de containers ou dúvidas sobre arquitetura, abra um *ticket* de suporte interno ou comunique diretamente a equipe de desenvolvimento (Leonardo/Engenharia).
+4.  **Suporte Técnico:** Em caso de bloqueios de ambiente, falhas de sincronização de containers ou dúvidas sobre arquitetura, abra um *ticket* de suporte interno ou comunique diretamente a equipe de desenvolvimento.
